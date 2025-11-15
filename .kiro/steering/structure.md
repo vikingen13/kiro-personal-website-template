@@ -54,6 +54,8 @@ Files in this directory are served as-is without processing:
 - One component per file
 - Component files use PascalCase (e.g., `ArticleCard.tsx`)
 - Co-locate component-specific styles when needed
+- **For multi-page websites:** Create separate page components in `src/components/` (e.g., `Home.tsx`, `About.tsx`, `Contact.tsx`)
+- **DO NOT put all content in `App.tsx`** - Keep `App.tsx` for routing and layout only
 
 ### TypeScript
 - Strict mode enabled
