@@ -6,6 +6,14 @@
 [![React](https://img.shields.io/badge/React-18.x-blue)](https://reactjs.org)
 [![Kiro](https://img.shields.io/badge/Powered%20by-Kiro%20AI-purple)](https://kiro.ai)
 
+## 📺 Video Tutorial
+
+Watch this step-by-step guide to learn how to use this template:
+
+[![Video Tutorial](ScreenshotVideo.png)](https://youtu.be/ClEZbvHekMg)
+
+**[▶️ Watch on YouTube: Create Your Website Without Coding](https://youtu.be/ClEZbvHekMg)**
+
 ## What is this?
 
 This template provides everything you need to create your own professional website using **Kiro AI**:
@@ -89,6 +97,23 @@ source .venv/bin/activate
 pip install -r requirements.txt
 cdk bootstrap
 ```
+
+## Architecture
+
+Your website is deployed on AWS using a simple, secure architecture:
+
+![AWS Architecture](aws-cloudfront-s3.png)
+
+**How it works:**
+1. **S3 Bucket** - Stores your website files (HTML, CSS, JavaScript, images)
+2. **CloudFront CDN** - Distributes your site globally for fast loading anywhere in the world
+3. **HTTPS** - Automatic secure connection for your visitors
+
+This setup is:
+- ⚡ **Fast** - Content delivered from servers close to your visitors
+- 🔒 **Secure** - HTTPS encryption included by default
+- 💰 **Affordable** - Pay only for what you use (~$1-5/month for most personal sites)
+- 🌍 **Global** - Fast loading times worldwide
 
 ## What you get
 
