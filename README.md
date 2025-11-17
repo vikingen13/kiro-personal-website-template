@@ -78,6 +78,7 @@ Your website will be live on AWS with a CloudFront URL!
 ## Prerequisites
 
 Before you start, make sure you have:
+- **Amazon Kiro** installed on your machine with a subscription ([Kiro](https://kiro.dev))
 - **Git** installed on your machine ([Download Git](https://git-scm.com/downloads))
 - **Node.js 18+** installed ([Download Node.js](https://nodejs.org/))
 - **Python 3.9+** installed ([Download Python](https://www.python.org/downloads/))
